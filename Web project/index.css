@@ -1,0 +1,78 @@
+.basliq a{   /*Başlıqdakı linklər üçündür, text-decoration none linkin altındakı xətti silir, font-size ölçüdür */  
+    text-decoration: none;
+     color: #fff; 
+     font-size: 12px;
+}
+.basliq a:hover{ /*Hoverdən linkin üzərinə gəldiyimiz zaman istifadə edirik, bu kodla linkin üzərinə gəldikdə linkə underline gəlir */  
+    text-decoration: underline;
+}
+.basliqas a{
+    text-decoration: none; 
+    color: #fff;
+     font-size: 20px;
+}
+.etrafli{ /* important olan hissələr kod tərəfindən daha vacib qəbullanır*/  
+    background-color: #E1B100 !important;
+    height: 40px;
+    width: 70px;
+    text-align: center;
+}
+.etrafli a{
+    text-decoration: none;
+    color: #fff;
+}
+.etrafli a:hover{
+    color: #E1B100;
+}
+.goydate{
+    background-color: #265CFF !important;
+}
+.goyalt{
+    background-color: #265CFF !important;
+    height: 5px;
+    margin-top: 38px;
+}
+.goyalt2{
+    background-color: #265CFF !important;
+    height: 5px;
+    margin-top: 11px;
+}
+.saridate{
+    background-color: #E1B100 !important;
+}
+.sarialt{
+    background-color: #E1B100 !important;
+    height: 5px;
+    margin-top: 11px;
+}
+.bozdate{
+    background-color: #444444 !important;
+}
+.bozalt{
+    background-color: #444444 !important;
+    height: 5px;
+    margin-top: 11px;
+}
+.bozxett{
+    background-color: #878787 !important;
+    height: 1px;
+    width: 60px;
+}
+.altlinkler a{
+    text-align: center;
+    margin: 18px;
+    text-decoration: none;
+    color: #878787;
+}
+.altlinkler a:hover{
+    text-decoration: underline;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    margin: 20px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
